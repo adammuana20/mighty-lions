@@ -698,6 +698,10 @@ img {
     .modal-container {
         height: 400px;
     }
+
+    .modal-container img {
+        width: 80%;
+    }
     
 }
 
