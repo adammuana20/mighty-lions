@@ -48,9 +48,15 @@ h1 {
     text-transform: uppercase;
 }
 
-h2, h3, h4 {
+h2, h3, h6 {
     margin-bottom: 0;
     color: #BfA871;
+    text-transform: uppercase;
+}
+
+h4,
+h5
+ {
     text-transform: uppercase;
 }
 
@@ -479,25 +485,42 @@ img {
 }
 
 .modal-container {
-    background: #000;
-    border-radius: 0.5rem;
+    background: #1b1b1b;
+    border: 1px solid #917D3A;
     width: 90vw;
-    height: 30vh;
+    height: 550px;
     max-width: 620px;
     text-align: center;
     display: grid;
     place-items: center;
     position: relative;
 }
+
+.modal-container img {
+    padding: 0 100px;
+}
+
+.modal-congratulation {
+    font-family: GTAmericaExpanded;
+    padding-bottom: 5px;
+}
+
+.modal-bottom-title {
+    padding: 0 40px 10px;
+}
+
   .close-btn {
     position: absolute;
-    top: 1rem;
+    bottom: 1rem;
     right: 1rem;
     background: transparent;
     border-color: transparent;
-    color: #BfA871;
+    color: 000000;
     cursor: pointer;
     transition: all 0.3s linear;
+    width: 50px;
+    border-radius: 40px;
+    background-color: #BfA871;
 }
   .close-btn:hover {
     transform: scale(1.3);
