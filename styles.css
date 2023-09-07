@@ -652,16 +652,22 @@ img {
         width: 35%;
     }
 
-.gold-tier,
-.silver-tier,
-.bronze-tier {
-    padding: 15px;
-}
+    .gold-tier,
+    .silver-tier,
+    .bronze-tier {
+        padding: 15px;
+    }
     
 }
 
 @media only screen and (max-width: 450px) {
     .mobile-screen .rewards-display {
         width: 45%;
+    }
+
+    .gold-tier,
+    .silver-tier,
+    .bronze-tier {
+        padding: 10px;
     }
 }
