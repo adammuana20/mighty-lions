@@ -54,9 +54,14 @@ h2, h3, h6 {
     text-transform: uppercase;
 }
 
+h6 {
+    margin-bottom: 20px;
+}
+
 h4,
 h5
  {
+    margin-bottom: 0;
     text-transform: uppercase;
 }
 
@@ -503,10 +508,15 @@ img {
 .modal-congratulation {
     font-family: GTAmericaExpanded;
     padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.modal-bottom {
+    width: 100%;
 }
 
 .modal-bottom-title {
-    padding: 0 40px 10px;
+    padding: 0 20px 10px;
 }
 
   .close-btn {
