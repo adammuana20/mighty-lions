@@ -670,4 +670,12 @@ img {
     .bronze-tier {
         padding: 10px;
     }
+
+    .tier-title {
+        width: 63px;
+    }
+
+    .tier-title p {
+        font-size: 1.4rem;
+    }
 }
