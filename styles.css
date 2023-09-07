@@ -509,6 +509,7 @@ img {
     font-family: GTAmericaExpanded;
     padding-bottom: 5px;
     margin-top: 10px;
+    font-size: clamp(1.2rem, 2.5vw, 2rem);
 }
 
 .modal-bottom {
