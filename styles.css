@@ -437,7 +437,7 @@ img {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .terms-title::after {
@@ -607,8 +607,7 @@ img {
 
     .register-now,
     .steps-list,
-    .terms,
-    .terms-content {
+    .terms {
         padding: 10px clamp(2.4rem, 6vw, 4.5rem);
     }
 }
