@@ -43,7 +43,7 @@ html, body {
 h1 {
     color: #c1aa6d;
     line-height: 1;
-    font-size: clamp(1.4rem, 3.5vw, 3rem);
+    font-size: clamp(1.4rem, 3vw, 3rem);
     margin-bottom: 0;
     text-transform: uppercase;
 }
