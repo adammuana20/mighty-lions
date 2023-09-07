@@ -676,6 +676,10 @@ img {
         padding: 0 20px;
     }
 
+    .terms-content {
+        padding: 0 20px 50px;
+    }
+
     .modal-container {
         height: 450px;
     }
