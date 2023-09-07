@@ -69,7 +69,7 @@ h2 {
 }
 
 h4 {
-    font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
 
 p {
@@ -497,7 +497,7 @@ img {
 }
 
 .modal-container img {
-    padding: 0 100px;
+    width: 70%;
 }
 
 .modal-congratulation {
@@ -523,7 +523,7 @@ img {
     background-color: #BfA871;
 }
   .close-btn:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 
 .header-top .claim-cta {
@@ -668,6 +668,10 @@ img {
         padding: 0 20px;
     }
 
+    .modal-container {
+        height: 450px;
+    }
+
 }
 
 @media only screen and (max-width: 550px) {
@@ -679,6 +683,10 @@ img {
     .silver-tier,
     .bronze-tier {
         padding: 15px;
+    }
+
+    .modal-container {
+        height: 400px;
     }
     
 }
