@@ -237,7 +237,16 @@ img {
 .img-box {
     width: 33%;
     padding: 10px;
+    
+}
 
+.img-box img {
+    transition: all .2s ease-in-out;
+}
+
+.img-box img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .tier-title {
