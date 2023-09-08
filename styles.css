@@ -249,7 +249,13 @@ img {
 } */
 
 .img-box {
-    width: 33%;
+    width: 35%;
+}
+
+.gold-tier .img-box:last-child,
+.silver-tier .img-box:last-child,
+.bronze-tier .img-box:last-child {
+    width: 26%;
 }
 
 .img-box img {
