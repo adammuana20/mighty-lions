@@ -359,7 +359,6 @@ img {
     justify-content: center;
     margin: 50px 0;
     padding: 0 55px 0 55px;
-    
 }
 
 .step-item {
@@ -373,7 +372,7 @@ img {
     background-color: #BfA871;
     color: #000;
     text-transform: uppercase;
-    font-size: clamp(0.9rem, 2vw, 1.5rem);
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
     width: 6em;
     height: 36px;
     margin: 0 auto;
@@ -704,6 +703,28 @@ img {
 
     .modal-container img {
         width: 80%;
+    }
+
+    .steps-list {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .step-dot {
+        display: none;
+    }
+
+    .step-item {
+        margin-bottom: 30px;
+    }
+
+    .step-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .step-description {
+        margin-top: 10px;
     }
     
 }
