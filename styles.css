@@ -54,10 +54,6 @@ h2, h3, h6 {
     text-transform: uppercase;
 }
 
-h6 {
-    margin-bottom: 20px;
-}
-
 h4,
 h5
  {
@@ -498,7 +494,7 @@ img {
     background: #1b1b1b;
     border: 1px solid #917D3A;
     width: 90vw;
-    height: 550px;
+    min-height: 400px;
     max-width: 620px;
     text-align: center;
     display: grid;
@@ -510,22 +506,28 @@ img {
     width: 70%;
 }
 
+.modal-top {
+    margin-block: 25px;
+}
+
 .modal-congratulation {
     font-family: GTAmericaExpanded;
     padding-bottom: 5px;
-    margin-top: 10px;
     font-size: clamp(1.2rem, 2.5vw, 2rem);
 }
 
+
+
 .modal-bottom {
     width: 100%;
+    margin-block: 25px;
 }
 
 .modal-bottom-title {
-    padding: 0 20px 10px;
+    padding-bottom: 10px;
 }
 
-  .close-btn {
+.close-btn {
     position: absolute;
     bottom: 1rem;
     right: 1rem;
@@ -548,6 +550,28 @@ img {
 
 .mobile-screen {
     display: none;
+}
+
+.reward-title,
+.reward-description,
+.reward-points {
+    display: none;
+}
+
+.reward-capsule {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reward-display-img {
+    position: absolute;
+    width: 55%;
+}
+
+.remove-pointer-event {
+    pointer-events: none;
 }
 
 @media only screen and (max-width: 1242px) {
@@ -605,10 +629,6 @@ img {
         display: block;
         padding-right: 0;
         width: 26%;
-    }
-
-    .mobile-screen .rewards-display img {
-        width: 100%;
     }
 
     .register-now,
@@ -685,22 +705,13 @@ img {
     .terms-content {
         padding: 0 20px 50px;
     }
-
-    .modal-container {
-        height: 450px;
-    }
-
 }
 
 @media only screen and (max-width: 550px) {
     .mobile-screen .rewards-display {
         width: 35%;
     }
-
-    .modal-container {
-        height: 400px;
-    }
-
+    
     .modal-container img {
         width: 80%;
     }

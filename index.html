@@ -17,14 +17,17 @@
                             <img src="./Desktop-Assets/Logo.png" alt="logo">
                         </div>
                         <div class="rewards-display">
-                            <img src="./Desktop-Assets/Reward_Display.png" alt="Reward Display">
+                            <div class="reward-capsule">
+                                <img src="./Desktop-Assets/reward-capsule.png">
+                                <img class="reward-display-img" src="">
+                            </div>
                         </div>
                     </div>
                     <div class="hero">
                         <div class="header-top">
                             <img src="./Desktop-Assets/Logo.png" alt="logo">
                             <div class="header-top-right">
-                                <h2>500 Bonus Bets</h2>
+                                <h2 id="header-title">500 Bonus Bets</h2>
                                 <h4 class="points">100 Points</h4>
                             </div>
                             <a href="#" class="claim-cta">Claim</a>
@@ -42,7 +45,10 @@
                 </div>
                 <div class="rewards-container">
                     <div class="rewards-display">
-                        <img src="./Desktop-Assets/Reward_Display.png" alt="Reward Display">
+                        <div class="reward-capsule">
+                            <img src="./Desktop-Assets/reward-capsule.png" alt="Reward Display">
+                            <img class="reward-display-img" src="">
+                        </div>
                         <a href="#" class="claim-cta">Claim</a>
                     </div>
                     <div class="rewards-section">
@@ -52,13 +58,22 @@
                             </div>
                             <div class="gold-tier">
                                 <div class="img-box">
-                                    <img src="./Prizes/car-raffle-entry.png" alt="">
+                                    <img class="img-click" src="./Prizes/car-raffle-entry.png" alt="">
+                                    <p class="reward-title">1 ENTRY TICKET FOR BMW 430I</p>
+                                    <p class="reward-description">CLAIM THIS REWARD FOR 200 POINTS AND GET 1 RAFFLE ENTRY TO WIN A BRAND NEW CAR</p>
+                                    <p class="reward-points">200 Points</p>
                                 </div>
                                 <div class="img-box">
-                                    <img src="./Prizes/3-days-hotel-stay.png" alt="">
+                                    <img class="img-click" src="./Prizes/3-days-hotel-stay.png" alt="">
+                                    <p class="reward-title">3 Days Hotel Stay</p>
+                                    <p class="reward-description">CLAIM THIS REWARD FOR 150 POINTS AND GET A FREE 3 DAY STAY ON ANY MGM RESORT HOTEL!</p>
+                                    <p class="reward-points">150 Points</p>
                                 </div>
                                 <div class="img-box">
-                                    <img src="./Prizes/500-bonus-bet.png" alt="">
+                                    <img class="img-click" src="./Prizes/500-bonus-bet.png" alt="">
+                                    <p class="reward-title">$500 Bonus Bets</p>
+                                    <p class="reward-description">CLAIM THIS REWARD FOR 100 POINTS AND GET $500 WORTH OF BONUS BETS!</p>
+                                    <p class="reward-points">100 Points</p>
                                 </div>
                             </div>
                         </div>
@@ -68,13 +83,22 @@
                             </div>
                             <div class="silver-tier">
                                 <div class="img-box">
-                                    <img src="./Prizes/tickets-for-2.png" alt="">
+                                    <img class="img-click" src="./Prizes/tickets-for-2.png" alt="">
+                                    <p class="reward-title">Arizona Stadium Tickets for 2</p>
+                                    <p class="reward-description">CLAIM THIS REWARD FOR 60 POINTS AND GET DISCOUNTS ON ANY MGM RESORT HOTEL!</p>
+                                    <p class="reward-points">60 Points</p>
                                 </div>
                                 <div class="img-box">
-                                    <img src="./Prizes/1-year-league-subscription.png" alt="">
+                                    <img class="img-click" src="./Prizes/1-year-league-subscription.png" alt="">
+                                    <p class="reward-title">NBA League Pass</p>
+                                    <p class="reward-description">CLAIM THIS REWARD FOR 50 POINTS AND GET A NBA LEAGUE PASS!</p>
+                                    <p class="reward-points">50 Points</p>
                                 </div>
                                 <div class="img-box">
-                                    <img src="./Prizes/100-bonus-bet.png" alt="">
+                                    <img class="img-click" src="./Prizes/100-bonus-bet.png" alt="">
+                                    <p class="reward-title">$100 Bonus Bets</p>
+                                    <p class="reward-description">CLAIM THIS REWARD FOR 40 POINTS AND GET $100 WORTH OF BONUS BETS!</p>
+                                    <p class="reward-points">40 Points</p>
                                 </div>
                             </div>
                         </div>
@@ -84,13 +108,22 @@
                             </div>
                             <div class="bronze-tier">
                                 <div class="img-box">
-                                    <img src="./Prizes/30-hotel-discount.png" alt="">
+                                    <img class="img-click" src="./Prizes/30-hotel-discount.png" alt="">
+                                    <p class="reward-title">Hotel 30% Discount Voucher</p>
+                                    <p class="reward-description">CLAIM THIS REWARD FOR 30 POINTS AND GET DISCOUNTS ON ANY MGM RESORT HOTEL!</p>
+                                    <p class="reward-points">30 Points</p>
                                 </div>
                                 <div class="img-box">
-                                    <img src="./Prizes/20-buffet-discount.png" alt="">
+                                    <img class="img-click" src="./Prizes/20-buffet-discount.png" alt="">
+                                    <p class="reward-title">Buffet 20% Discount Voucher</p>
+                                    <p class="reward-description">CLAIM THIS REWARD FOR 20 POINTS AND GET DISCOUNTS ON ANY MGM RESORT HOTEL!</p>
+                                    <p class="reward-points">20 Points</p>
                                 </div>
                                 <div class="img-box">
-                                    <img src="./Prizes/25-bonus-bets.png" alt="">
+                                    <img class="img-click" src="./Prizes/25-bonus-bets.png" alt="">
+                                    <p class="reward-title">$25 Bonus Bets</p>
+                                    <p class="reward-description">CLAIM THIS REWARD FOR 10 POINTS AND GET $25 WORTH OF BONUS BETS!</p>
+                                    <p class="reward-points">10 Points</p>
                                 </div>
                             </div>
                         </div>
@@ -268,10 +301,12 @@
                 <h2 class="modal-congratulation">Congratulations!</h2>
                 <h5>You Claimed:</h5>
             </div>
-            <img src="./Prizes/car-raffle-entry.png" />
+            <div class="modal-img">
+                <img src="./Prizes/car-raffle-entry.png" />
+            </div>
             <div class="modal-bottom">
             <h4 class="modal-bottom-title">1 raffle entry for a brand new car!</h4>
-            <h6>For 10 Points</h6>
+            <h6>For <span class="modal-points">10 Points</span></h6>
             <button class="close-btn">
                 <i class="fas fa-times"></i>
             </button>
