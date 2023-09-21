@@ -128,6 +128,13 @@ img {
     padding-right: 40px;
 }
 
+.container-logo {
+    position: absolute;
+    top: -80px;
+    left: 62px;
+    width: 65%;
+}
+
 .header-top img {
     width: 30%;
     margin-left: -20px;
@@ -636,6 +643,13 @@ img {
     .terms {
         padding: 10px clamp(2.4rem, 6vw, 4.5rem);
     }
+
+    .container-logo-mobile {
+        position: absolute;
+        top: -29%;
+        left: 22%;
+        width: 65%;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -663,7 +677,7 @@ img {
     }
 
     .mobile-screen {
-        padding: 20px 20px 0;
+        padding: 40px 20px 0;
     }
 
     .content {
