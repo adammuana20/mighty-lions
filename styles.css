@@ -17,12 +17,13 @@
 }
 
 html, body {
-    background: url('./Desktop-Assets/Background.jpg') center center/cover no-repeat;
+    background: url('./Desktop-Assets/BG_Basketball_Court.jpg') center center/cover no-repeat;
     color: #fff;
     font-family: 'GTAmericaBold';
     scroll-behavior: smooth;
-    box-shadow: inset 0 0 0 2000px rgba(0,0,0,.5);
+    /* box-shadow: inset 0 0 0 2000px rgba(0,0,0,.5); */
     background-attachment: fixed;
+    transition: all .5s;
 }
 
 .container {
@@ -37,11 +38,11 @@ html, body {
 .content {
     background-color: rgba(27,27,27, .7);
     padding: 0;
-    border: 2px solid #917D3A;
+    border-inline: 2px solid #ED683C;
 }
 
 h1 {
-    color: #c1aa6d;
+    color: #66BCF1;
     line-height: 1;
     font-size: clamp(1.3rem, 3.5vw, 3rem);
     margin-bottom: 0;
@@ -50,7 +51,7 @@ h1 {
 
 h2, h3, h6 {
     margin-bottom: 0;
-    color: #BfA871;
+    color: #66BCF1;
     text-transform: uppercase;
 }
 
@@ -90,13 +91,13 @@ img {
 }
 
 .gold {
-    color: #BfA871;
+    color: #66BCF1;
     background-image: linear-gradient(#FBFAD8 1%, #917D3A 30%, #BAA561 );
 }
 
 .silver {
     color: #bfc6c9;
-    background-image: linear-gradient(#FEFDFF 1%, #AAA9AD, #E1E0E4);
+    background-image: linear-gradient(#977db1 1%, #AAA9AD, #E1E0E4);
 }
 
 .bronze {
@@ -119,7 +120,7 @@ img {
 .header-top {
     height: 85px;
     background-color: #1b1b1b;
-    border-bottom: 2px solid #c2aa71;
+    border-bottom: 2px solid #ED683C;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -130,7 +131,7 @@ img {
 
 .container-logo {
     position: absolute;
-    top: -80px;
+    top: -65px;
     left: 62px;
     width: 65%;
 }
@@ -157,7 +158,7 @@ img {
     justify-content: space-between;
     padding: 5px clamp(2.5rem, 6vw, 4.5rem);
     margin: 10px 0;
-    border-block: 1px solid #BfA871;
+    border-block: 1px solid #ED683C;
 }
 
 .section-right {
@@ -174,7 +175,7 @@ img {
     width: 12px;
     background-color: transparent;
     border-radius: 50%;
-    border: 2px solid #BfA871;
+    border: 2px solid #66BCF1;
     display: inline-block;
     margin: 0 7px;
 }
@@ -332,13 +333,14 @@ img {
 }
 
 .claim-cta {
-    color: #fff;
+    color: #072249;
     text-transform: uppercase;
     font-weight: 600;
-    background-image: linear-gradient(#CBE2A0 1%, #00A651, #326270);
+    /* background-image: linear-gradient(#CBE2A0 1%, #00A651, #326270); */
+    background-color: #66BCF1;
     border-radius: 40px;
     margin-top: 30px;
-    transition: all .2s ease-in-out;
+    transition: .2s ease-in-out;
     display: inline-block;
     padding-inline: 1.2em;
     padding-block: 0.5em;
@@ -346,7 +348,7 @@ img {
 }
 
 .claim-cta:hover {
-    transform: scale(1.1);
+    background-color: #0190E7;
 }
 
 /* STEPS AND TERMS SECTION */
@@ -378,7 +380,7 @@ img {
 }
 
 .step-title {
-    background-color: #BfA871;
+    background-color: #66BCF1;
     color: #000;
     text-transform: uppercase;
     font-size: clamp(1.2rem, 2vw, 1.5rem);
@@ -404,15 +406,15 @@ img {
     width: 12px;
     background-color: transparent;
     border-radius: 50%;
-    border: 2px solid #BfA871;
+    border: 2px solid #66BCF1;
     z-index: 1;
     position: absolute;
     margin-top: 2px;
-    background-color: #000;
+    background-color: transparent;
 }
 
 .line-right{
-    border-top: 2px solid #917D3A;
+    border-top: 2px solid #66BCF1;
     width: 97px;
     position: absolute;
     top: 50%;
@@ -420,7 +422,7 @@ img {
 }
 
 .line-left{
-    border-top: 2px solid #917D3A;
+    border-top: 2px solid #66BCF1;
     width: 97px;
     position: absolute;
     top: 50%;
@@ -438,7 +440,7 @@ img {
 }
 
 .terms-title {
-    border-block: 1px solid #BfA871;
+    border-block: 1px solid #ED683C;
     font-size: clamp(1rem, 2.5vw, 1.3rem);
     line-height: 2.6;
     position: relative;
@@ -499,7 +501,7 @@ img {
 
 .modal-container {
     background: #1b1b1b;
-    border: 1px solid #917D3A;
+    border: 1px solid #66BCF1;
     width: 90vw;
     min-height: 400px;
     max-width: 620px;
@@ -545,7 +547,7 @@ img {
     transition: all 0.3s linear;
     width: 50px;
     border-radius: 40px;
-    background-color: #BfA871;
+    background-color: #66BCF1;
 }
   .close-btn:hover {
     transform: scale(1.1);
@@ -615,7 +617,7 @@ img {
 
     .mobile-screen {
         display: flex;
-        padding: 20px clamp(2.5rem, 6vw, 4.5rem) 0;
+        padding: 35px clamp(2.5rem, 6vw, 4.5rem) 0;
         align-items: center;
         justify-content: space-between;
     }
@@ -646,13 +648,17 @@ img {
 
     .container-logo-mobile {
         position: absolute;
-        top: -29%;
+        top: -25%;
         left: 22%;
         width: 65%;
     }
 }
 
 @media only screen and (max-width: 900px) {
+    .mobile-screen {
+        padding: 45px clamp(2.5rem, 6vw, 4.5rem) 0;
+    }
+
     .mobile-screen .rewards-display {
         width: 30%;
     }
