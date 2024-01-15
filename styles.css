@@ -32,7 +32,7 @@ html, body {
 }
 
 .nav-header {
-    height: 3.7rem;
+    height: 3.5rem;
     background-color: #050505;
     display: flex;
     justify-content: space-between;
@@ -40,7 +40,7 @@ html, body {
 
 .left-nav {
     display: flex;
-    padding: 1rem;
+    padding: .95rem;
 }
 
 .left-nav img:first-child {
@@ -88,13 +88,18 @@ html, body {
     font-family: 'GTAmericaLight';
 }
 
+.divider {
+    height: 60%;
+    border-right: 1px solid #303030;
+    margin-inline: 1rem;
+}
+
 .right-nav button {
-    margin-right: .4rem;
     font-size: .85rem;
 }
 
-.right-nav button:nth-child(2) {
-    margin-left: .4rem;
+.right-nav button:not(:first-child) {
+    margin-right: .5rem;
 }
 
 .right-nav .customer-care,
