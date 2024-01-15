@@ -36,7 +36,7 @@ html, body {
 }
 
 .content {
-    background-color: rgba(27,27,27, .7);
+    background-color: rgba(27,27,27, .8);
     padding: 0;
     border-inline: 2px solid #ED683C;
 }
