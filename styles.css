@@ -358,6 +358,14 @@ img {
     width: 35%;
 }
 
+.stadium {
+    width: 20%;
+}
+
+.stadium-width {
+    width: 30% !important;
+}
+
 .gold-tier .img-box:last-child,
 .silver-tier .img-box:last-child,
 .bronze-tier .img-box:last-child {
@@ -614,7 +622,7 @@ img {
 }
 
 .modal-container img {
-    width: 70%;
+    max-width: 50%;
 }
 
 .modal-top {
@@ -771,7 +779,17 @@ img {
     }
 }
 
+@media only screen and (max-width: 800px) {
+    .nav-header .left-nav a:last-child {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 700px) {
+    .nav-header .left-nav a:nth-child(3) {
+        display: none;
+    }
+
     body {
         background: url('./Mobile_Assets/BG.png') center center/cover no-repeat;
     }
@@ -826,6 +844,12 @@ img {
 
     .terms-content {
         padding: 0 20px 50px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .nav-header .left-nav a {
+        display: none;
     }
 }
 
