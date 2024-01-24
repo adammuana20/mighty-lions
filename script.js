@@ -61,3 +61,21 @@ imgBtns.forEach((btn) => {
         modalPoints.innerHTML = e.target.parentElement.getElementsByClassName('reward-points')[0].innerHTML
     })
 })
+
+const imgBox = document.querySelectorAll('.img-box')
+
+imgBox.forEach(box => {
+    box.addEventListener('click', (e) => {
+        const imgBoxClass = e.currentTarget.classList
+
+        if (imgBoxClass.contains('stadium')) {
+            rewardContainers.forEach((container) => {
+                container.classList.add('stadium-width')
+            })
+        } else {
+            rewardContainers.forEach((container) => {
+                container.classList.remove('stadium-width')
+            })
+        }
+    })
+})
